@@ -40,7 +40,7 @@ git clean -dxf
 # Change changelog if it's needed
 cur_ver=`head -l debian/changelog | sed -n -e 's/.* (\(.*\)) .*/\1/p'`
 if [ "$cur_ver" != "$version-1" ]; then
-	dch -D $codename --force-distribution -b -v "$version-3" "new version"
+	dch -D $codename --force-distribution -b -v "$version-1" "new version"
 fi
 
 # Create tar archieve
