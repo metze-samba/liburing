@@ -1,4 +1,4 @@
-liburing.so.2 liburing1 #MINVER#
+liburing.so.2 liburing2 #MINVER#
  LIBURING_2.0@LIBURING_2.0 2.0-1
  __io_uring_get_cqe@LIBURING_2.0 2.0-1
  __io_uring_sqring_wait@LIBURING_2.0 2.0-1

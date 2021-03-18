@@ -11,7 +11,7 @@ include /usr/share/dpkg/buildtools.mk
 
 export CC
 
-lib := liburing1
+lib := liburing2
 libdbg := $(lib)-dbg
 libudeb := $(lib)-udeb
 libdev := liburing-dev

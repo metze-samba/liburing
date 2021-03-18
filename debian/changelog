@@ -1,4 +1,4 @@
-liburing (2.0-1) stable; urgency=low
+liburing (2.0-2) stable; urgency=low
 
   * Update to 2.0
   * Fix library symlinks
